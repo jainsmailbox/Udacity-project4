@@ -1,4 +1,4 @@
-voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./upload_docker.sh
+(.devops1) voclabs:~/environment/Udacity-project4 (main) $ ./upload_docker.sh
 Docker ID and Image: jainsmailbox/udacity-proj4-aj
 Password: 
 WARNING! Your password will be stored unencrypted in /home/ec2-user/.docker/config.json.
@@ -8,9 +8,9 @@ https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 Login Succeeded
 Using default tag: latest
 The push refers to repository [docker.io/jainsmailbox/udacity-proj4-aj]
-b5fbe3b9fc97: Pushed 
-13754e970741: Pushed 
-47a3a56e1747: Pushed 
+6ae6ea6e0e7d: Pushed 
+cdbe5463ca32: Pushed 
+47a3a56e1747: Layer already exists 
 799a7872c8c7: Layer already exists 
 715450468940: Layer already exists 
 c9d608035aef: Layer already exists 
@@ -20,4 +20,4 @@ a637c551a0da: Layer already exists
 7b76d801397d: Layer already exists 
 f32868cde90b: Layer already exists 
 0db06dff9d9a: Layer already exists 
-latest: digest: sha256:b4251864293a30ded43c6fa94e04063651429ec409ed5e429092758f65cca00a size: 2847
+latest: digest: sha256:6586bc0d7195c8868823e43887ea0e4ca4e819132d27e589c77ca543487f0ce3 size: 2847
