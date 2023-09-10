@@ -1,8 +1,8 @@
-voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./make_prediction.sh
+(.devops1) voclabs:~/environment/Udacity-project4 (main) $ ./make_prediction.sh
 Port: 8000
 {
   "prediction": [
     20.35373177134412
   ]
 }
-voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ 
+(.devops1) voclabs:~/environment/Udacity-project4 (main) $ 
