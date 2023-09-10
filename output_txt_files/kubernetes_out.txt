@@ -1,0 +1,27 @@
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh
+pod/udacity-proj4-aj created
+NAME               READY   STATUS              RESTARTS   AGE
+udacity-proj4-aj   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ kubectl get pod
+NAME               READY   STATUS              RESTARTS   AGE
+udacity-proj4-aj   0/1     ContainerCreating   0          37s
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ kubectl get pod
+NAME               READY   STATUS    RESTARTS   AGE
+udacity-proj4-aj   1/1     Running   0          51s
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacity-proj4-aj" already exists
+NAME               READY   STATUS    RESTARTS   AGE
+udacity-proj4-aj   1/1     Running   0          61s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ 

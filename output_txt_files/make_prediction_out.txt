@@ -1,0 +1,8 @@
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ 
